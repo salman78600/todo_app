@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/config/theme/theme.dart';
-import 'package:todo_app/feature/todo/presentation/screens/home/home.dart';
+import 'package:todo_app/feature/todo/presentation/screens/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Todo Application',
       theme: theme(),
-      home: const TodoScreen(),
+      home: const HomeScreen(),
     );
   }
 }
